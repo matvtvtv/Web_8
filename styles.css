@@ -1,0 +1,54 @@
+/* Базовые стили для таблицы */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid black; /* Добавил внешнюю границу таблицы */
+}
+
+td {
+    padding: 15px;
+    width: 120px; /* Увеличил ширину ячеек */
+    height: 40px; /* Увеличил высоту ячеек */
+    text-align: center;
+    border: 1px solid black; /* Добавил границы для ячеек */
+}
+
+/* Определение классов */
+.cl1 {
+    color: blue;
+    font-family: "Courier New";
+    font-size: 16px; /* Увеличил размер шрифта с 12px до 16px */
+}
+
+.cl2 {
+    color: red;
+    font-weight: bold;
+    font-size: 16px; /* Добавил размер шрифта для согласованности */
+}
+
+.cl3 {
+    color: green;
+    font-family: "Times New Roman";
+    font-style: italic;
+    font-size: 16px;
+}
+
+.cl4 {
+    color: black;
+    border: 1px solid red; /* Эта граница будет переопределять обычную границу ячейки */
+    font-size: 16px;
+}
+
+.cl5 {
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 16px;
+} 
